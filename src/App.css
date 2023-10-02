@@ -63,7 +63,7 @@ html, body {
   border-radius: 50%;
   cursor: pointer;
   color: white;
-  background-color: #308434;
+  background: linear-gradient(90deg, rgba(7,170,7,1) 0%, rgba(2,98,39,1) 100%);
   transition: all .1s ease-in-out;
 }
 
@@ -72,7 +72,7 @@ html, body {
 }
 
 .counter.max {
-  background-color: gray;
+  background: gray;
 }
 
 .number {

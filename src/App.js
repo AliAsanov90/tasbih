@@ -7,10 +7,10 @@ function App() {
   const [counter, setCounter] = useState(0)
   const [maxCounterNum, setMaxCounterNum] = useState(QUANTITIES[0])
 
-  const isMax = counter === maxCounterNum
+  const isMax = counter >= maxCounterNum
 
   const increment = () => {
-    if (counter === maxCounterNum) return
+    if (counter >= maxCounterNum) return
     setCounter(prev => prev + 1)
   }
   const reset = () => setCounter(0)

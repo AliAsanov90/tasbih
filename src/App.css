@@ -76,7 +76,8 @@ html, body {
 }
 
 .number {
-  font-size: 76px;
+  user-select: none;
+  font-size: 100px;
 }
 
 .btnsWrapper {
@@ -96,10 +97,10 @@ html, body {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   color: white;
+  user-select: none;
 }
 
 .btn:hover {
-  opacity: 0.8;
   transform: scale(1.05);
 }
 

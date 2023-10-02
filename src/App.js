@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
-const QUANTITIES = [5, 99, 100]
+const QUANTITIES = [33, 99, 100]
 
 function App() {
   const [counter, setCounter] = useState(0)

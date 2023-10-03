@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <div className='minus' onClick={decrement}><span>&mdash;</span></div>       
       <div>
-        <div className={`counter ${isMax && 'max'}`} onClick={increment}>
+        <div className={`counter${isMax ? ' max' : ''}`} onClick={increment}>
           <p className='number'>{counter}</p>
         </div>
         <div className='btnsWrapper'>

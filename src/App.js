@@ -5,7 +5,7 @@ const QUANTITIES = [7, 33, 99, 100]
 
 function App() {
   const [counter, setCounter] = useState(0)
-  const [maxCounterNum, setMaxCounterNum] = useState(QUANTITIES[0])
+  const [maxCounterNum, setMaxCounterNum] = useState(QUANTITIES[1])
 
   const isMax = counter >= maxCounterNum
 

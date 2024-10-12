@@ -12,7 +12,7 @@ const QUANTITIES = [
 const isUnlimitedQuantityValue = QUANTITIES.find(({ title }) => title === 'Unlimited').value || 999999999
 
 function App() {
-  const [counter, setCounter] = useState(99)
+  const [counter, setCounter] = useState(0)
   const [maxCounterNum, setMaxCounterNum] = useState(isUnlimitedQuantityValue)
 
   const isMax = counter >= maxCounterNum
